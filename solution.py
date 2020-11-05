@@ -1,16 +1,15 @@
 ### welcome_assignment_answers
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
-def welcome_assignment_answers(question, answer):
+def welcome_assignment_answers(question):
     # The student doesn't have to follow the skeleton for this assignment.
     # Another way to implement it is using "case" statements similar to C.
-    global answer
     if question == "Are encoding and encryption the same? - Yes/No":
         answer = "No"
     elif question == "Is it possible to decrypt a message without a key? - Yes/No":
-        answer = "No"
-    elif question == "Is it possible to decode a message without a key? - Yes/No":
         answer = "Yes"
+    elif question == "Is it possible to decode a message without a key? - Yes/No":
+        answer = "No"
     elif question == "Is a hashed message supposed to be un-hashed? - Yes/No":
         answer = "No"
     elif question == "What is the MD5 hashing value to the following message: 'NYU Computer Networking' - Use MD5 hash generator and use the answer in your code":
