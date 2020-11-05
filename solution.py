@@ -20,6 +20,8 @@ def welcome_assignment_answers(question):
         answer = int(5)
     elif question == "What layer of the TCP/IP model the protocol TCP belongs to?":
         answer = int(4)
+    else:
+        answer = "Not Valid."
     return answer
 
 
