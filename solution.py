@@ -1,8 +1,7 @@
 ### welcome_assignment_answers
 ### Input - All eight questions given in the assignment.
 ### Output - The right answer for the specific question.
-
-def welcome_assignment_answers(question):
+def welcome_assignment_answers(question, answer):
     # The student doesn't have to follow the skeleton for this assignment.
     # Another way to implement it is using "case" statements similar to C.
     global answer
